@@ -1,0 +1,48 @@
+.list {
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: 35px;
+    border-top: 0px;
+    border-radius: 10px;
+}/*don't touch*/
+
+.list-group {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 50%;
+} /*don't touch*/
+
+
+
+.list-group-item {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-top: 15px;
+    padding-top: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 7px;
+    /*border-top: 1px solid rgba(0,0,0,.125);*/
+    font: bold 16px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.list-group-item:hover {
+    background: #0d6efd;
+    transition: 1s; /* Время эффекта */
+    text-align: left; 
+}
+
+.list-group-item:hover a{
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
